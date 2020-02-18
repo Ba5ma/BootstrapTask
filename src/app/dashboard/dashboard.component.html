@@ -1,0 +1,151 @@
+<!--Main Navigation-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+ 
+<header>
+    
+  
+    <!-- Sidebar -->
+    <div class="sidebar-fixed position-fixed">
+
+        <div class="backg1">
+           <img src="../../assets/Header-3x.png" width="255" height="133"/>
+           
+        </div>
+        <button type="button" class="btn btn-success">Checklist Results</button>
+        <div class="list-group list-group-flush">
+        <br>
+        <br>
+            <a routerLink="dashboards/v1" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect first-item-l">
+                Checklist Management
+            </a>
+            <a routerLink="profiles/profile1" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+                User Account Management</a>
+            <a routerLink="tables/table1" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+               Project Management</a>
+            <a routerLink="maps/map1" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect last-item-l">
+               Crew Management</a>
+        <br>    
+        </div>
+        <hr>
+        <a routerLink="maps/map1"  class="list-group-sett">Setting</a>
+            <button type="button" class="btn2 btn-success">Logout</button>
+    </div>
+    <!-- Sidebar -->
+
+
+</header>
+<!--Main Navigation-->
+
+<!-- content Side -->
+
+
+    <div class="container-fluid">
+        <div class="row bg-title">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                <h4 class="page-title">Dashboard</h4> </div>
+                <div class="container">
+                    <table class="header">
+                        <tr>
+                            <td class="first-td">
+                                <h2 class="headline-h">Checklist Results</h2>  
+                            </td>
+                            <td class="second-td">
+                                <!-- <form role="search" class="app-search hidden-sm hidden-xs m-r-10">
+                                    <input type="text" placeholder="Search Checklist" class="form-control"> 
+                                </form> -->
+
+                                <div class="form-group has-search">
+                                    
+                                    <input type="text" class="form-control" placeholder="Search Checklists">
+                                  </div>
+
+                                 
+                            </td>
+                        </tr>
+                    </table>
+                   
+                   
+                    <br>         
+                    <table class="table table-striped">
+                      <thead>
+                        <tr style="color: rgba(104, 104, 104, 1);">
+                          <th>Checklist Name + Number</th>
+                          <th>Inspector</th>
+                          <th>Project + Crew</th>
+                          <th>Score</th>
+                          <th>Date</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Fly Camp - Operations HSE 001</td>
+                          <td>Alan Bembridge</td>
+                          <td>Fahud Deep 3D<br> <span style="color: rgba(104, 104, 104, 1);">BGP (8622A) Adv Camp</span> </td>
+                          <td>13/24</td>
+                          <td>22/11/2010</td>
+                        </tr>
+                        <tr>
+                          <td>Vibrator - Operations HSE 022</td>
+                          <td>John Smith</td>
+                          <td>Fahud Deep 3D<br> <span style="color: rgba(104, 104, 104, 1);">BGP (8622A) Adv Camp</span></td>
+                          <td>13/24</td>
+                          <td>22/11/2010</td>
+                        </tr>
+                        <tr>
+                          <td>Night Operations HSE 014</td>
+                          <td>Aaron James</td>
+                          <td>Fahud Deep 3D<br> <span style="color: rgba(104, 104, 104, 1);">BGP (8622A) Adv Camp</span></td>
+                          <td>13/24</td>
+                          <td>22/11/2010</td>
+                        </tr>
+                        <tr>
+                            <td>Vibrator - Operations HSE 022</td>
+                            <td>John Smith</td>
+                            <td>Fahud Deep 3D<br> <span style="color: rgba(104, 104, 104, 1);">BGP (8622A) Adv Camp</span></td>
+                            <td>13/24</td>
+                            <td>22/11/2010</td>
+                          </tr>
+                          <tr>
+                            <td>Night Operations HSE 014</td>
+                            <td>Aaron James</td>
+                            <td>Fahud Deep 3D<br> <span style="color: rgba(104, 104, 104, 1);">BGP (8622A) Adv Camp</span></td>
+                            <td>13/24</td>
+                            <td>22/11/2010</td>
+                          </tr>
+                          <tr>
+                            <td>Night Operations HSE 014</td>
+                            <td>Aaron James</td>
+                            <td>Fahud Deep 3D<br> <span style="color: rgba(104, 104, 104, 1);">BGP (8622A) Adv Camp</span></td>
+                            <td>13/24</td>
+                            <td>22/11/2010</td>
+                          </tr>
+                          <tr>
+                              <td>Vibrator - Operations HSE 022</td>
+                              <td>John Smith</td>
+                              <td>Fahud Deep 3D<br> <span style="color: rgba(104, 104, 104, 1);">BGP (8622A) Adv Camp</span></td>
+                              <td>13/24</td>
+                              <td>22/11/2010</td>
+                            </tr>
+                            <tr>
+                              <td>Night Operations HSE 014</td>
+                              <td>Aaron James</td>
+                              <td>Fahud Deep 3D<br> <span style="color: rgba(104, 104, 104, 1);">BGP (8622A) Adv Camp</span></td>
+                              <td>13/24</td>
+                              <td>22/11/2010</td>
+                            </tr>
+                      </tbody>
+                    </table>
+                  </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        </div>
+     
