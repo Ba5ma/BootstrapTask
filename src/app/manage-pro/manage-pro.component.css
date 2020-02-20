@@ -1,3 +1,9 @@
+body{
+    background-image: url(../../assets/Background_Pattern-3x.png);
+    background-size: cover;
+ background-repeat: no-repeat;
+}
+
 .sidebar-fixed {
     height: 100vh;
     width: 270px;
@@ -47,17 +53,14 @@
       font-size: 11pt;
       padding-bottom: 15px;
       line-height: 2em;
+      border-radius: 5px;
       
      }
 
-     .list-group-sett{
-
-padding-top: 10px;     }
-
-.first-item-l{
-  padding-top: 25px;
-  border-top: 2px solid rgba(74, 74, 74, 1);
-}
+     .first-item-l{
+       padding-top: 25px;
+       border-top: 2px solid rgba(74, 74, 74, 1);
+     }
 
      .btn2{
       width: 180px;
@@ -68,8 +71,9 @@ padding-top: 10px;     }
       padding-top: 10px;
       font-size: 11pt;
       border: 0;
-      border-radius: 8px;
-      margin-top: 80px;
+      border-radius: 10px;
+      margin-top: 40px;
+      position: absolute;
      }
 
      .container{
@@ -79,6 +83,10 @@ padding-top: 10px;     }
        
        
        
+     }
+
+     .table{
+         border-radius: 6px;
      }
 
      .table td{
@@ -94,10 +102,10 @@ padding-top: 10px;     }
     
      }
 
-     tr:nth-child(even){
-    background-color: rgba(255, 203, 5, 0.05) !important;
+     /* tr:nth-child(even){
+    background-color: rgba(255, 203, 5, 0.1) !important;
 
-     }
+     } */
 
      tr:nth-child(odd){
       background-color: transparent !important;
@@ -115,19 +123,29 @@ padding-top: 10px;     }
        
      }
 
+     .list-group-sett{
+/* border-top: 2px solid rgba(74, 74, 74, 1); */
+padding-top: 10px;
+     }
+
      .header{
        width: 100%;
      }
 
      .first-td{
-       width: 22%;
+       width: 21%;
        padding-right: 0;
      }
 
      .second-td{
-      width: 78%;
+      width: 59%;
       text-align: left;
-      padding-left: 25%;
+      padding-left: 30px;
+    }
+
+    .third-td{
+        width: 20%;
+        text-align: left;
     }
 
    
@@ -136,10 +154,99 @@ padding-top: 10px;     }
       
   }
 
-  .spanIcon{
+    .pro-manager{
+        background-color: #00a651;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .edit{
+        color: rgba(8, 70, 148, 1);
+    }
+
+    .delete{
+        color: red;
+    }
+
+    .backgd{
+        position: absolute;
+        margin-left: 73%;
+        margin-top: 40%;
+        
+    }
+
+    .hiddenRow{
+        border-left: 3px solid rgba(104, 104, 104, 1);
+        background-color: rgba(255, 203, 5, 0.1) !important;
+    }
+
+    .btn-add{
+        background-color: rgba(8, 70, 148, 1);
+        border: 0;
+        font-size: 9pt;
+        border-radius: 4px;
+        color: white;
+        margin-left: 62px;
+        margin-right: 0;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .fa, .fa-plus{
+font-style: normal !important;
+    }
+
+    .form-control{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    a:hover {
+        background-color: #00a651;
+        color: white;
+        border-radius: 7px;
+      }
+
+/* 
+      .pagination,
+ .jsgrid .jsgrid-pager {
+     display: flex;
+     padding-left: 0;
+     list-style: none;
+     border-radius: 0.25rem
+ }
+
+ .page-link {
+     color: black
+ }
+
+ .pagination.pagination-rounded-flat .page-item {
+     margin: 0 .25rem
+ } */
+
+ .card-body {
     position: absolute;
-    margin-left: 550px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-  }
+    margin-left: 25%;
+    margin-top: 43%;
+ }
+
+ /* .pagination-success .page-item.active .page-link,
+ a {
+     background: #00c689;
+     border-color: #00c689
+ } */
+
+ .fa-angle-left{
+     border: 0 none;
+ }
+
+ .spanIcon{
+  position: absolute;
+  margin-left: 550px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
